@@ -2,7 +2,7 @@
 layout: post
 title: "📖 Building a Local Node Directory for Your Meshtastic Community"
 date: 2025-08-20
-categories: meshtastic community
+categories: [meshtastic, community]
 ---
 
 Transparency boosts community resilience.

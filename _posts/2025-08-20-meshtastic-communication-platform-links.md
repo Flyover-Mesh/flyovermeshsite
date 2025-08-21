@@ -2,7 +2,7 @@
 layout: post
 title: "💬 Connect with Us: Messaging Platforms for Your Meshtastic Group"
 date: 2025-08-20
-categories: meshtastic community
+categories: [meshtastic, community]
 ---
 
 Keep the conversations flowing with persistent chat and notifications.

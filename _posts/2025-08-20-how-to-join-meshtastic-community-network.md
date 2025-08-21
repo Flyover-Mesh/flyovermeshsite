@@ -2,7 +2,7 @@
 layout: post
 title: "🛠 Get Connected: How to Join Your Local Meshtastic Community Network"
 date: 2025-08-20
-categories: meshtastic community
+categories: [meshtastic, community]
 ---
 
 Make joining your mesh easy and exciting for newcomers.

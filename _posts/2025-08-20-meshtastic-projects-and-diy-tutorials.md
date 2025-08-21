@@ -2,7 +2,7 @@
 layout: post
 title: "🛠 Real Projects, Real Impact: Tutorials from Your Meshtastic Community"
 date: 2025-08-20
-categories: meshtastic community
+categories: [meshtastic, community]
 ---
 
 Show what your group is doing with LoRa radios.

@@ -2,7 +2,7 @@
 layout: post
 title: "📡 Visualize Local Node Reach: Setting Up a Meshtastic Network Coverage Map"
 date: 2025-08-20
-categories: meshtastic community
+categories: [meshtastic, community]
 ---
 
 A real-time or regularly updated coverage map helps your community know where the network is strong and where it needs reinforcement.

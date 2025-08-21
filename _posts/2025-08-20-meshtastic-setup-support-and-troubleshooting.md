@@ -2,7 +2,7 @@
 layout: post
 title: "🛟 Stuck? Meshtastic Troubleshooting and Setup Help"
 date: 2025-08-20
-categories: meshtastic community
+categories: [meshtastic, community]
 ---
 
 Make it easy for new users to get un-stuck fast.
