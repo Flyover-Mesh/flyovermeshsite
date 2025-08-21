@@ -4,7 +4,7 @@ title: "🌟 Why we're here, and how we behave."
 date: 2025-06-01
 author: k10n
 pin: true
-categories: Community, Meta
+categories: [community, meta]
 ---
 
 ## 🌐 Flyover Mesh Mission
