@@ -21,3 +21,6 @@ Discord is where we spend time and chat the most.
 This assumes you're set to Long Fast, that Long Fast is the name of your Default or Channel 0, and you've made no other deeper config changes.
 
 **It's also possible that you've done something special.** In that case, you probably know how to use the above information to add a channel. Good Job!
+
+## Contributing
+The Discord has a list of tasks/projects/ideas to help. If you'd like to contribute to this website, please the guidelines here.

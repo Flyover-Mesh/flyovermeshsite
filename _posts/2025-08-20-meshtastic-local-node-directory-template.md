@@ -1,14 +1,20 @@
 ---
 layout: post
-title: "📖 Building a Local Node Directory for Your Meshtastic Community"
+title: "📖 Community Node Directory of Flyover Mesh nodes"
 date: 2025-08-20
 categories: [meshtastic, community]
 ---
 
-Transparency boosts community resilience.
+These nodes are the ones the community has worked together to place in really high places and with lots of power.
 
-**Suggested fields:**
-- Node nickname or call sign
-- General area (not exact address)
-- Node type (router/client/portable)
-- Online/offline status if available
+**Buffalo Router:**
+- Short Name: 🦬
+- Installed at [https://www.openstreetmap.org/#map=19/37.687890/-97.337066&layers=N](First and Market streets), 130 feet above ground level
+
+**Bluestem Router**
+- Short Name: 🌾
+- Not yet installed
+
+**Blackbear Router**
+- Short Name: 🐾
+- Not yet installed
