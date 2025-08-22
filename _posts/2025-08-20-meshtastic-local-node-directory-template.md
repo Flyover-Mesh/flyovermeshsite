@@ -9,7 +9,7 @@ These nodes are the ones the community has worked together to place in really hi
 
 **Buffalo Router:**
 - Short Name: 🦬
-- Installed at [https://www.openstreetmap.org/#map=19/37.687890/-97.337066&layers=N](First and Market streets), 130 feet above ground level
+- Installed at [First and Market streets](https://www.openstreetmap.org/#map=19/37.687890/-97.337066&layers=N){:target="_blank"}, 130 feet above ground level
 
 **Bluestem Router**
 - Short Name: 🌾

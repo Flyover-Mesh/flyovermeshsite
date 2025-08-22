@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "🛠 Real Projects, Real Impact: Tutorials from Your Meshtastic Community"
-date: 2025-08-20
-categories: [meshtastic, community]
+title: "🛠 Real Projects, Real Impact: Show and Tell from Your Meshtastic Community"
+date: 2025-08-19
+categories: [meshtastic, community, builds]
 ---
 
-Show what your group is doing with LoRa radios.
+Have a node, setup, install, bot, or anything else you'd like to show to the community? Add a post with the details, or ask for help in the discord.
 
 **Examples to feature:**
 - Weather sensor broadcasts
