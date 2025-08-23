@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "📅 Plan Together: Meshtastic Events and Meetups Calendar"
-date: 2025-08-20
-categories: [meshtastic, community]
+title: "📅 Flyover Mesh Meshtastic Events and Meetups"
+date: 2025-08-01
+categories: [community]
 ---
 
 To encourage connection and learning.

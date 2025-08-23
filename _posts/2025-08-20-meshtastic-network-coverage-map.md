@@ -1,14 +1,23 @@
 ---
 layout: post
-title: "📡 Visualize Local Node Reach: Setting Up a Meshtastic Network Coverage Map"
-date: 2025-08-20
+title: "📡 Flyover Mesh Coverage Map for Wichita, Kansas"
+date: 2025-08-02
 categories: [meshtastic, community]
 ---
 
-A real-time or regularly updated coverage map helps your community know where the network is strong and where it needs reinforcement.
+There are more than one map broadly used by the Meshtastic system.
+These are not all the nodes, but only those that are configuted correctly.
 
-**Key Tips:**
-- Use tools like Meshtastic MQTT API, Meshtastic-Map-Viewer, or manually exported coordinates.
-- Group nodes by function: Router, Client, or Portable.
-- Respect user privacy—blur or offset exact home locations.
-- Provide a legend and instructions on how to add a node to the map.
+**Meshtastic Offical Map**
+<div class="mapwrap">
+    <iframe src="https://meshmap.net/" allowfullscreen></iframe>
+</div>
+
+
+**Liam Cottle's Map**
+<div class="mapwrap">
+    <iframe src="https://meshtastic.liamcottle.net/?lat=37.679750695846565&lng=262.6697158813477&zoom=11" allowfullscreen></iframe>
+</div>
+
+**Get your node listed on the map**
+- Offical Map: https://github.com/brianshea2/meshmap.net?tab=readme-ov-file#faqs
