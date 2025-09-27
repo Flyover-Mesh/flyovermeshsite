@@ -66,7 +66,8 @@ You’ll need a LoRa device (aka a “node”) to send messages on the mesh.
 
 | Device                         | GPS | Screen | Flashing | Use Case               |
 |---------------------|-----|--------|----------|------------------------|
-| SenseCAP T1000-E | ✅  | ❌     | ❌ No    | Beginners, plug-n-play |
+| SenseCAP T1000-E | ✅  | ❌     | ✅ Yes  | Beginners, plug-n-play |
+| WisMesh Tag | ✅  | ❌     | ✅ Yes  | Beginners, plug-n-play |
 | T-Beam (LilyGo)        | ✅  | ❌     | ✅ Yes   | Range + GPS node       |
 | T-Echo (LilyGo)         | ✅  | ✅     | ✅ Yes   | Voice & visual testing |
 | HELTEC V3                 | ❌  | ✅     | ✅ Yes   | Cheap test or relay    |
