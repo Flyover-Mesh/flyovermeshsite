@@ -80,7 +80,7 @@ Great time to meet other nodes, test range, and share updates.
 We know it can be overwhelming to get started. What would make it easier?
 
 React below with the option(s) that interest you:  
-🗣️ = Discord call w/ experienced users  
+🗣️ = Discord call w/ experienced users for advice
 🤝 = Local meetup and demo  
 💻 = Flash party (bring-your-own-device setup session)  
 📍 = Node placement workshop  
