@@ -5,62 +5,7 @@ date: 2025-08-01
 categories: [help]
 ---
 
-The best away to get help is to ask in the Discord #advice channel.
-
-**🔰 GETTING STARTED WITH MESHTASTIC (WICHITA EDITION)**
-Here’s how to get started:
-⸻
-
-📱 1. INSTALL THE MESHTASTIC APP
-You’ll use this app to connect your phone to your device and manage settings.
-
-For iPhone:
-[App Store Link 🔗](https://apps.apple.com/us/app/meshtastic/id1586432531)
-
-For Android:
-[Google Play Link 🔗](https://play.google.com/store/apps/details?id=com.geeksville.mesh&hl=en)
-
-⸻
-
-📡 2. CHOOSE YOUR DEVICE
-
-You’ll need a LoRa device (aka a “node”) to send messages on the mesh.
-
-🔰 Easiest Option (No setup needed) **SenseCAP T1000-E**
-* [Amazon](https://a.co/d/9HS9Cs6)
-* [Seeed Studio](https://www.seeedstudio.com/SenseCAP-Card-Tracker-T1000-E-for-Meshtastic-p-5913.html)
-
-✅ Pocket-sized, GPS built-in, USB-C charging
-
-❌ No screen
-
-⸻
-
-🛠️ DIY Options (More powerful, needs flashing)
-
-**T-Beam (LilyGo)**
-* [Amazon](https://a.co/d/fkwSuVV)
-* [lillygo](https://lilygo.cc/products/t-beam?variant=44907400167605)
-
-✅ Long range, built-in GPS
-
-❌ Requires flashing
-
-**T-Echo (LilyGo)**
-* [Lillygo](https://lilygo.cc/products/t-echo-lilygo?variant=44875726291125)
-* [Amazon](https://www.amazon.ca/LILYGO-Wireless-Meshtastic-Development-NRF52840/dp/B0B658DZ9Z?th=1)
-
-✅ GPS, screen, microphone
-
-❌ Higher power draw, also needs flashing
-
-**HELTEC V3**
-* [Heltec (be sure to choose the 902-928MHz band)](https://heltec.org/project/wifi-lora-32-v3/)
-* [Amazon](https://a.co/d/gh2j6nh)
-
-✅ Budget option, screen
-
-❌ No GPS (or DIY GPS), limited range, needs flashing
+## Meshtastic Devices
 
 ✅ DEVICE QUICK COMPARISON
 
@@ -73,56 +18,59 @@ You’ll need a LoRa device (aka a “node”) to send messages on the mesh.
 | HELTEC V3                 | ❌  | ✅     | ✅ Yes   | Cheap test or relay    |
 | RAK wireless WisBlock Meshtastic Starter Kit | ❌  | ❌     | ✅ Yes   | Super low power for solar installs    |
 
+### 🔰 Easiest Options (No setup needed)
+
+**SenseCAP T1000-E**
+* [Amazon](https://a.co/d/9HS9Cs6)
+* [Seeed Studio](https://www.seeedstudio.com/SenseCAP-Card-Tracker-T1000-E-for-Meshtastic-p-5913.html)
+
+✅ Pocket-sized, GPS built-in, USB-C charging
+
+❌ No screen
+
+**WisMesh Tag**
+* [Rokland](https://store.rokland.com/products/wismesh-tag-from-rakwireless-mokosmart-meshtastic-compatible-card-sized-node-us915-mhz?ref=flyover)
+
+✅ Pocket-sized, GPS built-in, USB-C charging
+
+❌ No screen
+
+**HELTEC Meshpocket**
+* [Rokland](https://store.rokland.com/products/heltec-meshpocket-qi2-magnetic-charging-power-bank-meshtastic-compatible?ref=flyover)
+
+✅ e-paper screen, acts as a magsafe charger, no flashing
+
+❌ more pricy than DIY options
 
 ⸻
 
-💻 3. FLASH YOUR DEVICE (if needed)
+🛠️ DIY Options (More powerful, needs flashing)
 
-Use the web flasher:
-[https://flasher.meshtastic.org](https://flasher.meshtastic.org)
-Use Chrome or Edge only (not Firefox)
-* Plug in via USB
-* Choose the correct board
-* Hit “Flash”
-Need help? Ask in Discord or wait for a flash party!
+**T-Beam (LilyGo)**
+* [Rokland](https://store.rokland.com/products/lilygo-t-beam-supreme-esp32-s3-lora-development-board-sx1262-915mhz-gps-l76k-or-u-blox?ref=flyover)
 
-⸻
+✅ Long range, built-in GPS
 
-⚙️ 4. RECOMMENDED SETTINGS
+❌ Requires flashing
 
-Use these so your node can communicate with others in the Wichita network!
+**T-Echo (LilyGo)**
+* [Rokland](https://store.rokland.com/products/lilygo-ttgo-meshtastic-t-echo-white-lora-sx1262-wireless-module-915mhz-nrf52840-gps-for-arduino?ref=flyover)
 
-📻  Radio Config:
-Device
-- Role: Client (or Client Mute)
+✅ GPS, screen, microphone
 
-LoRa
-- Region: US
-- User Preset: On
-- Modem: LongFast
+❌ Higher power draw, also needs flashing
 
-Position
-- GPS: ✅ Enabled (if supported by device)
+**HELTEC V3**
+* [Rokland](https://store.rokland.com/products/heltec-wifi-lora-32v3?ref=flyover)
 
-Channels
-Primary
-- Name: LongFast (just like that, no space)
-- Pre-Shared Key: AQ==
-  - then select "8 bit" or "Default"
+✅ Budget option, screen, case (kinda, sorta)
 
-🧩 Config -> Module Config -> MQTT:
-- Enabled: ✅ Yes (helps meshmap.net, don't change the defaults)
-- Encryption Enabled: ❌ No
-- Root topic: msh/US/KS/Wichita
-- Map Reporting Enabled: ✅ yes
+❌ No GPS (or DIY GPS), limited range, needs flashing
 
-Identity Settings (top left, pencil icon):
-* Long Name: This is your choice! Make it something unique and memorable.
-* Short Name: This is up to you, too! 
-⸻
+___
 
 
-🙋 NEED HELP?
+### 🙋 NEED HELP?
 * Ask questions in Discord
 * Hop on Sundays at 8pm to join the Mesh Net
 * Let us know you want to have flash night or range test meetup!
