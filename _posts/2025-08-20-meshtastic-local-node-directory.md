@@ -13,8 +13,16 @@ These nodes are the ones the community has worked together to place in really hi
 
 **Bluestem Router**
 - Short Name: 🌾
-- Not yet installed
+- Installed near [21st and Hillside Streets](https://www.openstreetmap.org/#map=17/37.722061/-97.299610&layers=N){:target="_blank"}, 140 feet above ground level
 
 **Blackbear Router**
-- Short Name: 🐾
-- Not yet installed
+- Short Name: 🐻
+- Installed on top of the [High Touch building ](https://www.openstreetmap.org/#map=19/37.685139/-97.338178&layers=N){:target="_blank"}, more than 100 feet above ground level
+
+**Meadowlark**
+- Short Name: 🪽
+- Currently battle testing before install
+
+**Box Turtle**
+- Short Name: 🐢
+- Currently battle testing before install
