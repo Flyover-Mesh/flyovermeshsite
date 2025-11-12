@@ -71,7 +71,7 @@ analytics:
   cloudflare:
     id: # fill in your Cloudflare Web Analytics token
   fathom:
-    id: # fill in your Fathom Site ID
+    id: 1234567
 
 # Page views settings
 pageviews:
