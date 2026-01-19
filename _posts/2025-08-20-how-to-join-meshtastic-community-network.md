@@ -29,7 +29,7 @@ The community keeps a list of devices up to date, including recomendations and v
 
 📡 2. CHOOSE YOUR DEVICE
 
-You’ll need a LoRa device (aka a “node”) to send messages on the mesh.
+You’ll need a LoRa device (aka a “node”) to send messages on the mesh. Take a look at the [recomended hardware from the community](https://flyovermesh.org/posts/meshtastic-setup-support-and-troubleshooting/#meshtastic-devices).
 
 ⸻
 ### Setting up your hardware
