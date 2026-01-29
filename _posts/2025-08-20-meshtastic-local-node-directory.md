@@ -25,7 +25,7 @@ These nodes are the ones the community has worked together to place in really hi
 
 **Silvisarus**
 - Short Name: 🦴
-- Near 21st and Woodlawn
+- Near [21st and Woodlawn](https://www.openstreetmap.org/#map=19/37.72115/-97.26074&layers=N){:target="_blank"}
 
 **Cottonwood**
 - Short Name: ctwd
