@@ -25,19 +25,15 @@ These nodes are the ones the community has worked together to place in really hi
 
 **Silvisarus**
 - Short Name: 🦴
-- Near [21st and Woodlawn](https://www.openstreetmap.org/#map=19/37.72115/-97.26074&layers=N){:target="_blank"}
+- Solar node installed about 60 feet above ground level near [21st and Woodlawn](https://www.openstreetmap.org/#map=19/37.72115/-97.26074&layers=N){:target="_blank"}
 
 **Cottonwood**
 - Short Name: ctwd
-- Near 21st and Amidon
-
-**Silvisarus**
-- Short Name: 🦴
-- Near 21st and Woodlawn
+- Solar node installed about 40 feed above ground level near [21st and Amidon](https://www.openstreetmap.org/search?query=37%C2%B043%2705.7%22N+97%C2%B021%2741.5%22W&zoom=19&minlon=-97.26236522197725&minlat=37.7202282556995&maxlon=-97.25911438465118&maxlat=37.72207194458361#map=19/37.718250/-97.361528&layers=N).
 
 **Woodard**
 - Short Name: 🏀
-- Near Rock and 54/400
+- Located about 90 feet aboce ground level near [Rock and 54/400](https://www.openstreetmap.org/#map=18/37.679250/-97.244539&layers=N).
 
 **Meadowlark**
 - Short Name: 🪽
