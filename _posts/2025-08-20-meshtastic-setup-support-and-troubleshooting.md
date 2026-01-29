@@ -7,69 +7,26 @@ categories: [help]
 
 ## Meshtastic Devices
 
-✅ DEVICE QUICK COMPARISON
+✅ [MESHTASTIC DEVICE QUICK COMPARISON can be found here.](https://flyovermesh.org/posts/meshtastic-recomended-devices)
 
-| Device                         | GPS | Screen | Plug & Play | Use Case               |
-|---------------------|-----|--------|----------|------------------------|
-| SenseCAP T1000-E | ✅  | ❌     | ✅ Yes  | Beginners, plug-n-play |
-| WisMesh Tag | ✅  | ❌     | ✅ Yes  | Beginners, plug-n-play |
-| T-Beam (LilyGo)        | ✅  | ❌     | ❌ No   | Range + GPS node       |
-| T-Echo (LilyGo)         | ✅  | ✅     | ❌ No   | Voice & visual testing |
-| HELTEC V3                 | ❌  | ✅     | ❌ No   | Cheap test or relay    |
-| RAK wireless WisBlock Meshtastic Starter Kit | ❌  | ❌     | ❌ No   | Super low power for solar installs    |
+### What settings do I need to join the mesh?
+See the how-to guide: [🛠 Getting Connected](https://flyovermesh.org/posts/how-to-join-meshtastic-community-network/)
 
-### 🔰 Easiest Options (Plug & Play, no flashing, the least setup needed)
+### How can I test if my node is working?
+The Flyover Mesh is lucky! We have serveal ways to verify that you're sending messages on the mesh.
 
-**SenseCAP T1000-E**
-* [Amazon](https://a.co/d/9HS9Cs6)
-* [Seeed Studio](https://www.seeedstudio.com/SenseCAP-Card-Tracker-T1000-E-for-Meshtastic-p-5913.html)
-* Pros / Cons
-  * ✅ Pocket-sized, GPS built-in, USB-C charging
-  * ❌ No screen
+1. Any message received by Flyover Mesh Bot or Frood Bot will be posted to the #mesh-map channel in Discord. Send a short message, and check the channel.
+2. Flyover Mesh Bot will reply to messages that you send. Try sending `$ping` or `$coinflip` on the Long Fast channel, and be sure to include the $. If the bot receives your message, it will respond. You can test your transmit (tx) by checking #mesh-map on Discord (see the 1.), and test your receive (rx) by waiting to receive a message back from Flyover Mesh Bot.
+3. Least helpful is to look for the little, grey "Acknowledged" text under your message. That means your message was received and some node send an ACK that your node received back.
 
-**WisMesh Tag**
-* [Rokland](https://store.rokland.com/products/wismesh-tag-from-rakwireless-mokosmart-meshtastic-compatible-card-sized-node-us915-mhz?ref=flyover)
+### What Mode should my node be in?
+Choose Client mode as a default. If you're installing your own node in a high place, then Client Base may be a good choice. Any other setting should be chosen only by someone who isn't reading an FAQ page 🔬
 
-* Pros / Cons
-  * ✅ Pocket-sized, GPS built-in, USB-C charging
-  * ❌ No screen
+### My messages say "Max retransmission reached." Why?
+You tried to send a message, but your node can't tell you for sure that the messge has been received by another node.
 
-**HELTEC Meshpocket**
-* [Rokland](https://store.rokland.com/products/heltec-meshpocket-qi2-magnetic-charging-power-bank-meshtastic-compatible?ref=flyover)
+After attempting to send, nodes wait for an acknoledgement message (or ACK) from another node. This lets you know that your message was transmitted, **and** that it was received. When your node does not receive an ACK, your messages will show this notice.
 
-* Pros / Cons
-  * ✅ e-paper screen, acts as a magsafe charger, no flashing
-  * ❌ more pricy than DIY options
+This message does not mean your message was not received it, but that your node didn't receive confirmation that it was received, which is essential for 2-way communication.
 
-⸻
-
-🛠️ DIY Options (More powerful, needs flashing)
-
-**T-Beam (LilyGo)**
-* [Rokland](https://store.rokland.com/products/lilygo-t-beam-supreme-esp32-s3-lora-development-board-sx1262-915mhz-gps-l76k-or-u-blox?ref=flyover)
-* Pros / Cons
-  * ✅ Long range, built-in GPS
-  * ❌ Requires flashing
-
-**T-Echo (LilyGo)**
-* [Rokland](https://store.rokland.com/products/lilygo-ttgo-meshtastic-t-echo-white-lora-sx1262-wireless-module-915mhz-nrf52840-gps-for-arduino?ref=flyover)
-* Pros / Cons
-  * ✅ GPS, screen, microphone
-  * ❌ Higher power draw, also needs flashing
-
-**HELTEC V3**
-* [Rokland](https://store.rokland.com/products/heltec-wifi-lora-32v3?ref=flyover)
-* Pros / Cons
-  * ✅ Budget option, screen, case (kinda, sorta)
-  * ❌ No GPS (or DIY GPS), limited range, needs flashing
-
-___
-
-
-### 🙋 NEED HELP?
-* Ask questions in Discord
-* Hop on Sundays at 8pm to join the Mesh Net
-* Let us know you want to have flash night or range test meetup!
-
-Let us know what brought you here or what you’re excited to build—we’re building together!
-
+If you keep getting these messages, see "How can I test if my node is working?"
