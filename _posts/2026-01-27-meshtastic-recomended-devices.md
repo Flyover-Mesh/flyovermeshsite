@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Recomended Meshtastic Devices"
+title: "Recommended Meshtastic Devices"
 date: 2026-01-27
 categories: [help, advice, resources]
 ---
