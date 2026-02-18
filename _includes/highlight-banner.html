@@ -1,9 +1,7 @@
 {% if site.highlight_banner.enabled %}
-<div id="highlight-banner" class="highlight-banner highlight-banner--{{ site.highlight_banner.style | default: 'info' }}" data-banner-id="{{ site.highlight_banner.id }}">
+<div id="highlight-banner" class="highlight-banner highlight-banner--{{ site.highlight_banner.style | default: 'info' }}" data-banner-id="{{ site.highlight_banner.id }}" data-text="{{ site.highlight_banner.text | escape }}">
   <div class="highlight-banner__content">
-    <span class="highlight-banner__text">
-      {{ site.highlight_banner.text | replace: '[', '<a href="' | replace: '](', '" class="highlight-banner__link">' | replace: ')', '</a>' }}
-    </span>
+    <span class="highlight-banner__text"></span>
   </div>
   <button class="highlight-banner__dismiss" aria-label="Dismiss banner" onclick="dismissBanner()">
     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -20,6 +18,10 @@
 
   if (localStorage.getItem(storageKey) === 'true') {
     banner.style.display = 'none';
+  } else {
+    var text = banner.getAttribute('data-text');
+    var parsed = text.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" class="highlight-banner__link">$1</a>');
+    banner.querySelector('.highlight-banner__text').innerHTML = parsed;
   }
 
   window.dismissBanner = function() {
