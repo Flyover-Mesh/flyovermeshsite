@@ -80,7 +80,7 @@ posthog:
 
 # Highlight Banner - dismissable banner at the top of content
 highlight_banner:
-  enabled: true
+  enabled: false
   id: "mar-meetup"  # Change to show new banner to users who dismissed old
   text: "Next meetup March 21 @1pm! [Learn more](https://discord.com/events/1362559552939360276/1480242218240315503)"
   style: info  # info, success, or warning
